@@ -16,6 +16,3 @@ create table culture_trait
 create index idx_culture_trait_trait
     on culture_trait (trait_id);
 
-create index idx_culture_trait_trait2
-    on culture_trait (trait_id);
-

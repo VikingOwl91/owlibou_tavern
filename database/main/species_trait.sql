@@ -16,6 +16,3 @@ create table species_trait
 create index idx_species_trait_trait
     on species_trait (trait_id);
 
-create index idx_species_trait_trait2
-    on species_trait (trait_id);
-

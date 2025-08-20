@@ -14,6 +14,3 @@ create table profession_trait
 create index idx_profession_trait_trait
     on profession_trait (trait_id);
 
-create index idx_profession_trait_trait2
-    on profession_trait (trait_id);
-
